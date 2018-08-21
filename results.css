@@ -1,0 +1,51 @@
+body{
+    background-color: #F0E68C;
+}
+html{
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+th{
+    color:darkblue;
+    background: yellow;
+    font-size: 20px;
+    padding: 5px;  
+}
+
+tr:nth-child(even){
+    background: white
+}
+
+tr:nth-child(odd){
+    background: orange
+}
+
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+table{
+    
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color:blue;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+}
